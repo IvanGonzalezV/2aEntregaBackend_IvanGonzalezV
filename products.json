@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "title": "Smartphone Samsung Galaxy S21",
+    "description": "Potente smartphone con pantalla AMOLED de alta resolución y cámara de 108 MP.",
+    "code": "SGS21BLK",
+    "price": 999.99,
+    "status": true,
+    "stock": 50,
+    "category": "Electrónicos",
+    "thumbnails": [
+      "samsung-galaxy-s21.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Laptop Dell XPS 13",
+    "description": "Laptop ultradelgada con pantalla táctil Full HD y procesador Intel Core i7.",
+    "code": "XPS13SLV",
+    "price": 1299.99,
+    "status": true,
+    "stock": 30,
+    "category": "Electrónicos",
+    "thumbnails": [
+      "dell-xps-13.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Smart TV LG OLED C1",
+    "description": "Televisor 4K con tecnología OLED y sistema operativo webOS.",
+    "code": "LGTV4KOLED",
+    "price": 1499.99,
+    "status": true,
+    "stock": 20,
+    "category": "Electrónicos",
+    "thumbnails": [
+      "lg-oled-c1.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Cámara Canon EOS R6",
+    "description": "Cámara sin espejo con sensor CMOS de 20.1 MP y grabación de video 4K.",
+    "code": "EOSR6BLK",
+    "price": 2499.99,
+    "status": true,
+    "stock": 15,
+    "category": "Electrónicos",
+    "thumbnails": [
+      "canon-eos-r6.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Auriculares Sony WH-1000XM4",
+    "description": "Auriculares inalámbricos con cancelación de ruido y hasta 30 horas de autonomía.",
+    "code": "WH1000XM4BLK",
+    "price": 349.99,
+    "status": true,
+    "stock": 40,
+    "category": "Electrónicos",
+    "thumbnails": [
+      "sony-wh-1000xm4.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Consola PlayStation 5",
+    "description": "La última generación de la consola de videojuegos PlayStation, con gráficos de alta fidelidad y velocidad de carga ultrarrápida.",
+    "code": "PS5BLK",
+    "price": 499.99,
+    "status": true,
+    "stock": 10,
+    "category": "Electrónicos",
+    "thumbnails": [
+      "playstation-5.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Reproductor de música Apple iPod Touch",
+    "description": "Reproductor de música portátil con pantalla retina de 4 pulgadas y capacidad de almacenamiento de hasta 256 GB.",
+    "code": "IPT256GB",
+    "price": 299.99,
+    "status": true,
+    "stock": 25,
+    "category": "Electrónicos",
+    "thumbnails": [
+      "ipod-touch.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Robot aspirador iRobot Roomba 960",
+    "description": "Robot aspirador con navegación inteligente y capacidad de mapeo de la casa.",
+    "code": "ROOMBA960",
+    "price": 499.99,
+    "status": true,
+    "stock": 20,
+    "category": "Electrónicos",
+    "thumbnails": [
+      "irobot-roomba-960.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Smartwatch Apple Watch Series 6",
+    "description": "Reloj inteligente con monitor de frecuencia cardíaca, sensor de oxígeno en la sangre y GPS integrado.",
+    "code": "AW6BLK",
+    "price": 399.99,
+    "status": true,
+    "stock": 35,
+    "category": "Electrónicos",
+    "thumbnails": [
+      "apple-watch-series-6.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Impresora multifunción HP LaserJet Pro MFP M428fdw",
+    "description": "Impresora láser multifunción con impresión, escaneo, copia y fax.",
+    "code": "HPLJM428FDW",
+    "price": 399.99,
+    "status": true,
+    "stock": 15,
+    "category": "Electrónicos",
+    "thumbnails": [
+      "hp-laserjet-pro-mfp-m428fdw.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Tableta Samsung Galaxy Tab S7",
+    "description": "Tableta Android con pantalla de 11 pulgadas y soporte para S Pen.",
+    "code": "SGTS7BLK",
+    "price": 649.99,
+    "status": true,
+    "stock": 20,
+    "category": "Electrónicos",
+    "thumbnails": [
+      "samsung-galaxy-tab-s7.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Monitor LG UltraGear 27GL850-B",
+    "description": "Monitor de juegos con resolución QHD de 27 pulgadas y tasa de refresco de 144 Hz.",
+    "code": "27GL850-B",
+    "price": 499.99,
+    "status": true,
+    "stock": 10,
+    "category": "Electrónicos",
+    "thumbnails": [
+      "lg-ultragear-27gl850-b.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Altavoz inteligente Amazon Echo Dot (4.ª generación)",
+    "description": "Altavoz inteligente con Alexa integrada para reproducir música, controlar dispositivos domésticos inteligentes y más.",
+    "code": "ECHO4GEN",
+    "price": 49.99,
+    "status": true,
+    "stock": 30,
+    "category": "Electrónicos",
+    "thumbnails": [
+      "amazon-echo-dot-4th-gen.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Cámara de seguridad Nest Cam Outdoor",
+    "description": "Cámara de seguridad resistente a la intemperie con visión nocturna y capacidad de transmisión en directo.",
+    "code": "NESTCAMOUTDOOR",
+    "price": 199.99,
+    "status": true,
+    "stock": 20,
+    "category": "Electrónicos",
+    "thumbnails": [
+      "nest-cam-outdoor.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Auriculares inalámbricos Bose QuietComfort 35 II",
+    "description": "Auriculares con cancelación de ruido y hasta 20 horas de autonomía.",
+    "code": "QC35II",
+    "price": 299.99,
+    "status": true,
+    "stock": 25,
+    "category": "Electrónicos",
+    "thumbnails": [
+      "bose-quietcomfort-35-ii.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Cámara de acción GoPro HERO9 Black",
+    "description": "Cámara de acción resistente al agua con resolución de video 5K y pantalla táctil trasera.",
+    "code": "HERO9BLK",
+    "price": 449.99,
+    "status": true,
+    "stock": 15,
+    "category": "Electrónicos",
+    "thumbnails": [
+      "gopro-hero9-black.jpg"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Barra de sonido Sonos Arc",
+    "description": "Barra de sonido premium con soporte para Dolby Atmos y control por voz.",
+    "code": "SONOSARC",
+    "price": 799.99,
+    "status": true,
+    "stock": 10,
+    "category": "Electrónicos",
+    "thumbnails": [
+      "sonos-arc.jpg"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Router WiFi Mesh TP-Link Deco X60",
+    "description": "Sistema de malla WiFi 6 para una cobertura amplia y conexión estable en todo el hogar.",
+    "code": "DECX60",
+    "price": 299.99,
+    "status": true,
+    "stock": 20,
+    "category": "Electrónicos",
+    "thumbnails": [
+      "tp-link-deco-x60.jpg"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Lámpara inteligente Philips Hue White and Color Ambiance",
+    "description": "Lámpara inteligente que ofrece luz blanca ajustable y millones de colores, compatible con voz.",
+    "code": "HUEWHITECOLOR",
+    "price": 69.99,
+    "status": true,
+    "stock": 30,
+    "category": "Electrónicos",
+    "thumbnails": [
+      "philips-hue-white-and-color-ambiance.jpg"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Teclado mecánico Corsair K95 RGB Platinum XT",
+    "description": "Teclado mecánico con interruptores Cherry MX y retroiluminación RGB personalizable.",
+    "code": "K95PLATINUMXT",
+    "price": 199.99,
+    "status": true,
+    "stock": 15,
+    "category": "Electrónicos",
+    "thumbnails": [
+      "corsair-k95-rgb-platinum-xt.jpg"
+    ]
+  }
+]
