@@ -12,7 +12,13 @@ const app = express();
 
 //MongoDB connect
 const uri = "mongodb+srv://ronin:r0nin7_rules@cluster0.liik0i2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
-mongoose.connect(uri);
+mongoose.connect(uri, { dbName: 'nombre_de_tu_base_de_datos' })
+    .then(() => {
+        console.log('Conexión exitosa a MongoDB');
+    })
+    .catch((error) => {
+        console.error('Error al conectar a MongoDB:', error);
+    });
 
 //Handlebars Config
 app.engine('handlebars', handlebars.engine());
