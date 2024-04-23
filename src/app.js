@@ -6,18 +6,18 @@ import viewsRouter from './routes/viewsRouter.js';
 import __dirname from './utils/constantsUtil.js';
 import {Server} from 'socket.io';
 import websocket from './websocket.js';
-import mongoose from 'mongoose';
+import { connectDB } from './utils/db.js';
 
 const app = express();
 
 //MongoDB connect
-const uri = "mongodb+srv://ronin:r0nin7_rules@cluster0.liik0i2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
-mongoose.connect(uri, { dbName: 'nombre_de_tu_base_de_datos' })
+connectDB()
     .then(() => {
         console.log('Conexión exitosa a MongoDB');
     })
     .catch((error) => {
         console.error('Error al conectar a MongoDB:', error);
+        process.exit(1);
     });
 
 //Handlebars Config
@@ -31,9 +31,18 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.static('public'));
 
 //Routers
-app.use('/api/products', productRouter);
-app.use('/api/carts', cartRouter);
-app.use('/products', viewsRouter);
+const PRODUCT_ROUTE = '/api/products';
+const CART_ROUTE = '/api/carts';
+const VIEWS_ROUTE = '/products';
+app.use(PRODUCT_ROUTE, productRouter);
+app.use(CART_ROUTE, cartRouter);
+app.use(VIEWS_ROUTE, viewsRouter);
+
+// Error handling middleware
+app.use((err, req, res, next) => {
+    console.error(err.stack);
+    res.status(500).send('¡Algo salió mal!');
+});
 
 const PORT = 8080;
 const httpServer = app.listen(PORT, () => {
